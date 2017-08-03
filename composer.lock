@@ -1,0 +1,635 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2541a5d1d755c3e4c11a97e1b5a38561",
+    "packages": [
+        {
+            "name": "miraframework/cache",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MiraFramework/cache.git",
+                "reference": "a2eae725c9de6041fa0cce5dd17fce6efa783542"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MiraFramework/cache/zipball/a2eae725c9de6041fa0cce5dd17fce6efa783542",
+                "reference": "a2eae725c9de6041fa0cce5dd17fce6efa783542",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joseph Mancuso",
+                    "email": "jmancuso.mil@gmail.com"
+                }
+            ],
+            "description": "Service Provider for Mira Framework to add caching of arbitrary data",
+            "time": "2017-07-29T19:40:41+00:00"
+        },
+        {
+            "name": "miraframework/comet",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MiraFramework/comet.git",
+                "reference": "ecdbd34ba7c533bb5af74c8516d64b6b84b23d29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MiraFramework/comet/zipball/ecdbd34ba7c533bb5af74c8516d64b6b84b23d29",
+                "reference": "ecdbd34ba7c533bb5af74c8516d64b6b84b23d29",
+                "shasum": ""
+            },
+            "require": {
+                "miraframework/render": "^2.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joseph Mancuso",
+                    "email": "jmancuso.mil@gmail.com"
+                }
+            ],
+            "description": "Service Provider for Mira Framework to add shorthand capabilities to common templating problems",
+            "time": "2017-07-23T02:58:06+00:00"
+        },
+        {
+            "name": "miraframework/commands",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MiraFramework/commands.git",
+                "reference": "3b340e516f5c478d71e105f5b0a31045b9bc46b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MiraFramework/commands/zipball/3b340e516f5c478d71e105f5b0a31045b9bc46b4",
+                "reference": "3b340e516f5c478d71e105f5b0a31045b9bc46b4",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joseph Mancuso",
+                    "email": "jmancuso.mil@gmail.com"
+                }
+            ],
+            "description": "Console commands for Mira Framework",
+            "time": "2017-07-24T13:57:29+00:00"
+        },
+        {
+            "name": "miraframework/controller",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MiraFramework/controller.git",
+                "reference": "35e02efb7b1afa67a3dfd75518b22bbd1e8ca971"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MiraFramework/controller/zipball/35e02efb7b1afa67a3dfd75518b22bbd1e8ca971",
+                "reference": "35e02efb7b1afa67a3dfd75518b22bbd1e8ca971",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joseph Mancuso",
+                    "email": "jmancuso.mil@gmail.com"
+                }
+            ],
+            "description": "A Service Provider to add Controller closure support to Mira Framework",
+            "time": "2017-07-23T00:58:25+00:00"
+        },
+        {
+            "name": "miraframework/forms",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MiraFramework/forms.git",
+                "reference": "1a6b4006603754b1e5a36e4d1eb9098fbcda5a03"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MiraFramework/forms/zipball/1a6b4006603754b1e5a36e4d1eb9098fbcda5a03",
+                "reference": "1a6b4006603754b1e5a36e4d1eb9098fbcda5a03",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joseph Mancuso",
+                    "email": "jmancuso.mil@gmail.com"
+                }
+            ],
+            "description": "A Service Provider to add Forms support for view templates to the Mira Framework",
+            "time": "2017-07-09T15:03:01+00:00"
+        },
+        {
+            "name": "miraframework/installer",
+            "version": "v2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MiraFramework/installer.git",
+                "reference": "249371a8c0c830cc20c2a824521a02664e7967ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MiraFramework/installer/zipball/249371a8c0c830cc20c2a824521a02664e7967ee",
+                "reference": "249371a8c0c830cc20c2a824521a02664e7967ee",
+                "shasum": ""
+            },
+            "require": {
+                "miraframework/cache": "^2.0",
+                "miraframework/comet": "^2.0",
+                "miraframework/commands": "^2.0",
+                "miraframework/controller": "^2.0",
+                "miraframework/forms": "^0.1",
+                "miraframework/models": "^2.0",
+                "miraframework/project": "^2.0",
+                "miraframework/render": "^2.0",
+                "miraframework/shorthand": "^0.1",
+                "symfony/console": "~2.0",
+                "vlucas/phpdotenv": "^2.4"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joseph Mancuso",
+                    "email": "jmancuso.mil@gmail.com"
+                }
+            ],
+            "description": "Installer for Mira Framework",
+            "time": "2017-07-30T19:32:59+00:00"
+        },
+        {
+            "name": "miraframework/models",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MiraFramework/models.git",
+                "reference": "748cd6f207a900a74e65f1603bc4ed76f9901b88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MiraFramework/models/zipball/748cd6f207a900a74e65f1603bc4ed76f9901b88",
+                "reference": "748cd6f207a900a74e65f1603bc4ed76f9901b88",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joseph Mancuso",
+                    "email": "jmancuso.mil@gmail.com"
+                }
+            ],
+            "description": "A Service Provider to add Model ORM support to Mira Framework",
+            "time": "2017-07-29T21:18:02+00:00"
+        },
+        {
+            "name": "miraframework/project",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MiraFramework/project.git",
+                "reference": "53cdfd4638ce015e21b4b454bfc09039cbea2542"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MiraFramework/project/zipball/53cdfd4638ce015e21b4b454bfc09039cbea2542",
+                "reference": "53cdfd4638ce015e21b4b454bfc09039cbea2542",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joseph Mancuso",
+                    "email": "jmancuso.mil@gmail.com"
+                }
+            ],
+            "description": "A Service Provider to add Project support to get configuration files easier for the Mira Framework",
+            "time": "2017-07-23T03:07:04+00:00"
+        },
+        {
+            "name": "miraframework/render",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MiraFramework/render.git",
+                "reference": "3bebdd5e4704655b8e9a1e6913cb6113fe824fc9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MiraFramework/render/zipball/3bebdd5e4704655b8e9a1e6913cb6113fe824fc9",
+                "reference": "3bebdd5e4704655b8e9a1e6913cb6113fe824fc9",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joseph Mancuso",
+                    "email": "jmancuso.mil@gmail.com"
+                }
+            ],
+            "description": "A Service Provider to add Render class to Mira Framework",
+            "time": "2017-07-23T02:45:41+00:00"
+        },
+        {
+            "name": "miraframework/shorthand",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MiraFramework/shorthand.git",
+                "reference": "a796390e1c61f4384ccf87e5cfa1a15f64e4d018"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MiraFramework/shorthand/zipball/a796390e1c61f4384ccf87e5cfa1a15f64e4d018",
+                "reference": "a796390e1c61f4384ccf87e5cfa1a15f64e4d018",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joseph Mancuso",
+                    "email": "jmancuso.mil@gmail.com"
+                }
+            ],
+            "description": "A Service Provider to add shorthand Render and Route support to Mira Framework",
+            "time": "2017-07-09T15:48:04+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "quickbooks/v3-php-sdk",
+            "version": "v3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/intuit/QuickBooks-V3-PHP-SDK.git",
+                "reference": "10fd3a5079d0c901697e2a72e3af219971eece94"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/intuit/QuickBooks-V3-PHP-SDK/zipball/10fd3a5079d0c901697e2a72e3af219971eece94",
+                "reference": "10fd3a5079d0c901697e2a72e3af219971eece94",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "QuickBooksOnline\\API\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "hlu2",
+                    "email": "Hao_Lu@intuit.com"
+                }
+            ],
+            "description": "The Official PHP SDK for QuickBooks Online Accounting API",
+            "homepage": "http://developer.intuit.com",
+            "keywords": [
+                "api",
+                "http",
+                "quickbooks",
+                "rest",
+                "smallbusiness"
+            ],
+            "time": "2017-07-20T23:32:36+00:00"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.8.25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2",
+                "reference": "46e65f8d98c9ab629bbfcc16a4ff023f61c37fb2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "symfony/debug": "^2.7.2|~3.0.0",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.1|~3.0.0",
+                "symfony/process": "~2.1|~3.0.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "time": "2017-07-03T08:04:30+00:00"
+        },
+        {
+            "name": "symfony/debug",
+            "version": "v3.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/debug.git",
+                "reference": "697c527acd9ea1b2d3efac34d9806bf255278b0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/697c527acd9ea1b2d3efac34d9806bf255278b0a",
+                "reference": "697c527acd9ea1b2d3efac34d9806bf255278b0a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "psr/log": "~1.0"
+            },
+            "conflict": {
+                "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
+            },
+            "require-dev": {
+                "symfony/class-loader": "~2.8|~3.0",
+                "symfony/http-kernel": "~2.8|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Debug\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Debug Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-07-30T07:22:48+00:00"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
+                "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2017-06-09T14:24:12+00:00"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause-Attribution"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2016-09-01T10:05:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

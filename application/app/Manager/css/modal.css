@@ -1,0 +1,9 @@
+.big-modal{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background-color: green;
+    z-index: 100;
+    display: none;
+    margin: 0 auto;
+}

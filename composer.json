@@ -1,0 +1,27 @@
+{
+    "name": "mira/mira",
+    "description": "Mira is a PHP MVC Framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joseph Mancuso",
+            "email": "jmancuso.mil@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "miraframework/installer": "~2.0",
+        "symfony/console": "~2.0",
+        "quickbooks/v3-php-sdk": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mira\\": "vendor/miraframework",
+            "App\\": "application/App",
+            "Events\\": "application/Providers/Events",
+            "Middleware\\": "application/Middleware",
+            "MiraCommand\\": "vendor/miraframework/commands"
+        }
+    }
+}

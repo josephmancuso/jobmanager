@@ -1,0 +1,20 @@
+.job-thumbnail{
+  background-position: center;
+  background-size: 350px;
+  height: 200px;
+}
+
+.job-thumbnail-header{
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+}
+
+.project-wrapper{
+  padding: 8px;
+  background-color: white;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+  border: 1px solid #777;
+}
